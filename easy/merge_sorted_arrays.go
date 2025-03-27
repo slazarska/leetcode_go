@@ -1,6 +1,7 @@
 package easy
 
 /*
+#88. Merge Sorted Arrays
 eng
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n,
 representing the number of elements in nums1 and nums2 respectively.
@@ -40,6 +41,7 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 */
 
 /*
+#88. Слияние отсортированных списков
 rus
 Вам даны два целочисленных массива nums1 и nums2, отсортированных в неубывающем порядке, и два целых числа m и n,
 представляющих количество элементов в nums1 и nums2 соответственно.
