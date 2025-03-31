@@ -6,14 +6,20 @@ import (
 )
 
 func main() {
-	//#2469. Конвертация температуры
-	fmt.Println(easy.ConvertTemperature(22.00))
 
-	//#88. Слияние отсортированных списков
+	//#67. Бинарное сложение / Add Binary
+	a := "1010"
+	b := "1011"
+	fmt.Println(easy.AddBinary(a, b))
+
+	//#88. Слияние отсортированных списков / Merge Sorted Arrays
 	nums1 := []int{1, 2, 3, 0, 0, 0}
 	m := 3
 	nums2 := []int{2, 5, 6}
 	n := 3
 	easy.MergeSortedArrays(nums1, m, nums2, n)
 	fmt.Println(nums1)
+
+	//#2469. Конвертация температуры / Convert the Temperature
+	fmt.Println(easy.ConvertTemperature(22.00))
 }
