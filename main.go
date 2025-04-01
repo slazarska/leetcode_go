@@ -20,6 +20,10 @@ func main() {
 	easy.MergeSortedArrays(nums1, m, nums2, n)
 	fmt.Println(nums1)
 
+	//#202. Счастливое число / Happy Number
+	fmt.Println(easy.IsHappy(19))
+	fmt.Println(easy.IsHappyFloydsCycle(16))
+
 	//#2469. Конвертация температуры / Convert the Temperature
 	fmt.Println(easy.ConvertTemperature(22.00))
 }
