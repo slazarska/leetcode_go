@@ -7,6 +7,9 @@ import (
 
 func main() {
 
+	//#28. Индекс первого вхождения в строку / Find the Index of the First Occurrence in a String
+	fmt.Println(easy.FindIndexOfTheFirstOccurrenceInString("hello world", "world"))
+
 	//#67. Бинарное сложение / Add Binary
 	a := "1010"
 	b := "1011"
