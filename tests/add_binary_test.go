@@ -19,7 +19,7 @@ func TestAddBinary(t *testing.T) {
 	for _, tt := range tests {
 		result := easy.AddBinary(tt.a, tt.b)
 		if result != tt.expected {
-			t.Errorf("addBinary(%s, %s) = %s; expected %s", tt.a, tt.b, result, tt.expected)
+			t.Errorf("AddBinary(%s, %s) = %s; expected %s", tt.a, tt.b, result, tt.expected)
 		}
 	}
 }

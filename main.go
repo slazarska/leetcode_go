@@ -7,6 +7,9 @@ import (
 
 func main() {
 
+	//# 27. Удалить элемент / Remove element
+	fmt.Println(easy.RemoveElement([]int{1, 2, 2, 3, 2}, 2))
+
 	//#28. Индекс первого вхождения в строку / Find the Index of the First Occurrence in a String
 	fmt.Println(easy.FindIndexOfTheFirstOccurrenceInString("hello world", "world"))
 
