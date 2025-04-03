@@ -7,6 +7,9 @@ import (
 
 func main() {
 
+	//#26. Удалить дубликаты из отсортированного массива
+	fmt.Println(easy.RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 3}))
+
 	//# 27. Удалить элемент / Remove element
 	fmt.Println(easy.RemoveElement([]int{1, 2, 2, 3, 2}, 2))
 
