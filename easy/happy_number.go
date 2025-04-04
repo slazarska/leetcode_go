@@ -26,7 +26,6 @@ Input: n = 2
 Output: false
 
 Constraints:
-
 1 <= n <= 231 - 1
 */
 
@@ -56,7 +55,6 @@ rus
 Выход: false
 
 Ограничения:
-
 1 <= n <= 231 - 1
 */
 

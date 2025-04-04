@@ -1,8 +1,9 @@
 package easy
 
 /*
-#88. Merge Sorted Arrays
 eng
+#88. Merge Sorted Arrays
+
 You are given two integer arrays nums1 and nums2, sorted in non-decreasing order, and two integers m and n,
 representing the number of elements in nums1 and nums2 respectively.
 Merge nums1 and nums2 into a single array sorted in non-decreasing order.
@@ -30,7 +31,6 @@ The result of the merge is [1].
 Note that because m = 0, there are no elements in nums1. The 0 is only there to ensure the merge result can fit in nums1.
 
 Constraints:
-
 nums1.length == m + n
 nums2.length == n
 0 <= m, n <= 200
@@ -41,8 +41,9 @@ Follow up: Can you come up with an algorithm that runs in O(m + n) time?
 */
 
 /*
-#88. Слияние отсортированных списков
 rus
+#88. Слияние отсортированных списков
+
 Вам даны два целочисленных массива nums1 и nums2, отсортированных в неубывающем порядке, и два целых числа m и n,
 представляющих количество элементов в nums1 и nums2 соответственно.
 Объедините nums1 и nums2 в один массив, отсортированный в неубывающем порядке.
@@ -70,9 +71,8 @@ rus
 Обратите внимание, что поскольку m = 0, в nums1 нет элементов. 0 нужен только для того, чтобы результат слияния поместился в nums1.
 
 Ограничения:
-
-nums1.length == m + n
-nums2.length == n
+длина nums1 == m + n
+длина nums2 == n
 0 <= m, n <= 200
 1 <= m + n <= 200
 -109 <= nums1[i], nums2[j] <= 109

@@ -44,7 +44,7 @@ rus
 Пояснение: "leeto" не встречается в "leetcode", поэтому мы возвращаем -1.
 
 Ограничения:
-1 <= haystack.length, needle.length <= 104
+1 <= длина haystack, длина needle <= 104
 haystack и needle состоят только из строчных английских символов.
 */
 
