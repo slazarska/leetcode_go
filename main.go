@@ -31,6 +31,9 @@ func main() {
 	//#202. Счастливое число / Happy Number
 	fmt.Println(easy.IsHappy(19))
 
+	//#242. Валидная анаграмма / Valid Anagram
+	fmt.Println(easy.IsAnagram("tom marvolo riddle", "i am lord voldemort"))
+
 	//#290. Словесный паттерн / Word Patter
 	fmt.Println(easy.WordPattern("ab", "dog cat"))
 
