@@ -31,6 +31,9 @@ func main() {
 	//#202. Счастливое число / Happy Number
 	fmt.Println(easy.IsHappy(19))
 
+	//#290. Словесный паттерн / Word Patter
+	fmt.Println(easy.WordPattern("ab", "dog cat"))
+
 	//#2469. Конвертация температуры / Convert the Temperature
 	fmt.Println(easy.ConvertTemperature(22.00))
 }
