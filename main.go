@@ -7,6 +7,9 @@ import (
 
 func main() {
 
+	//#9. Число-палиндром / Palindrome Number
+	fmt.Println("#9. Palindrome Number:", easy.IsPalindrome(1001))
+
 	//#26. Удалить дубликаты из отсортированного массива / Remove Duplicates From Sorted Array
 	fmt.Println("#26. Remove Duplicates From Sorted Array:", easy.RemoveDuplicates([]int{0, 0, 1, 1, 1, 2, 3}))
 
@@ -19,7 +22,7 @@ func main() {
 	//#67. Бинарное сложение / Add Binary
 	fmt.Println("#67. Add Binary:", easy.AddBinary("1010", "1011"))
 
-	//#70. Подъем по лестнице
+	//#70. Подъем по лестнице / Climbing Stairs
 	fmt.Println("#70. Climbing Stairs:", easy.ClimbStairs(5))
 
 	//#88. Слияние отсортированных списков / Merge Sorted Arrays
